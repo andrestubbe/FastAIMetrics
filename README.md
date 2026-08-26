@@ -1,4 +1,4 @@
-﻿# FastAIMetrics 0.1.0 [ALPHA] â€” Ultra-Fast Lock-Free AI Telemetry, Cost Engine & Evaluation Streamer
+# FastAIMetrics 0.1.0 [ALPHA] â€” Ultra-Fast Lock-Free AI Telemetry, Cost Engine & Evaluation Streamer
 
 [![Status](https://img.shields.io/badge/status-0.1.0-brightgreen.svg)](https://github.com/andrestubbe/FastAIMetrics/releases/tag/0.1.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -172,6 +172,16 @@ Download the latest JARs directly to add them to your classpath:
 * **[CHANGELOG.md](docs/CHANGELOG.md)**: Release history and version notes.
 * **[ROADMAP.md](docs/ROADMAP.md)**: Future milestones and planned features.
 * **[COMPILE.md](docs/COMPILE.md)**: Instructions for compiling from source.
+
+---
+
+## Platform Support
+
+| Platform | Status |
+|----------|--------|
+| Windows 10/11 (x64) | ✅ Fully Supported |
+| Linux | 🚧 Planned |
+| macOS | 🚧 Planned |
 
 ---
 
