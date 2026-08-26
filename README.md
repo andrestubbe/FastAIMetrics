@@ -1,4 +1,4 @@
-# FastAIMetrics 0.1.0 [ALPHA] — Ultra-Fast Lock-Free AI Telemetry, Cost Engine & Evaluation Streamer
+﻿# FastAIMetrics 0.1.0 [ALPHA] â€” Ultra-Fast Lock-Free AI Telemetry, Cost Engine & Evaluation Streamer
 
 [![Status](https://img.shields.io/badge/status-0.1.0-brightgreen.svg)](https://github.com/andrestubbe/FastAIMetrics/releases/tag/0.1.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -8,7 +8,7 @@
 
 ---
 
-**⚡ Ultra-fast lock-free LLM token tracker, real-time cost calculator, streaming latency profiler, and `.aimetrics` dual-format binary telemetry engine for Java.**
+**âš¡ Ultra-fast lock-free LLM token tracker, real-time cost calculator, streaming latency profiler, and `.aimetrics` dual-format binary telemetry engine for Java.**
 
 **FastAIMetrics** provides zero-allocation, nanosecond-speed telemetry for autonomous agents, LLM client pipelines, and RAG architectures. It tracks prompt/completion tokens, Time-to-First-Token (TTFT), execution latencies, dynamic model pricing, and evaluation heuristic scores without external servers, OpenTelemetry bloat, or Docker overhead.
 
@@ -49,20 +49,20 @@ public class Demo {
 
 ## Key Features
 
-- **⚡ Lock-Free Aggregate Tracking** — High-concurrency `LongAdder` & `DoubleAdder` counters with zero lock contention.
-- **💵 Zero-Allocation Cost Engine** — Instant dynamic pricing matrix (`AICostCalculator`) supporting GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, LLaMA-3, and local models.
-- **⏱️ Microsecond Latency Profiling** — Tracks total execution time, TTFT (Time-to-First-Token), and generation token velocity (Tokens/sec).
-- **📦 FastFileFormat `.aimetrics` Compression** — Compact VarInt delta-timestamped binary serialization (Payload ID `0x0005`).
-- **🛡️ Embedded & Air-Gapped** — 100% in-process Java 17+, zero external database or cloud monitoring dependencies.
+- **âš¡ Lock-Free Aggregate Tracking** â€” High-concurrency `LongAdder` & `DoubleAdder` counters with zero lock contention.
+- **ðŸ’µ Zero-Allocation Cost Engine** â€” Instant dynamic pricing matrix (`AICostCalculator`) supporting GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, LLaMA-3, and local models.
+- **â±ï¸ Microsecond Latency Profiling** â€” Tracks total execution time, TTFT (Time-to-First-Token), and generation token velocity (Tokens/sec).
+- **ðŸ“¦ FastFileFormat `.aimetrics` Compression** â€” Compact VarInt delta-timestamped binary serialization (Payload ID `0x0005`).
+- **ðŸ›¡ï¸ Embedded & Air-Gapped** â€” 100% in-process Java 17+, zero external database or cloud monitoring dependencies.
 
 ---
 
 ## Real-World Scenarios
 
-- **🤖 Multi-Agent Loop Telemetry** — Tracking cumulative token spend and stopping runaway recursive agent loops in `FastAIAgent`.
-- **⚡ Provider SLA & Routing** — Measuring TTFT and token generation velocity to dynamically route prompts across multi-LLM clusters.
-- **📊 RAG Quality & Cost Audit** — Correlating retrieval precision evaluation scores with token consumption in `FastAIRag`.
-- **📑 Autonomous Budget Enforcement** — Real-time cost threshold triggers and multi-tenant billing calculations.
+- **ðŸ¤– Multi-Agent Loop Telemetry** â€” Tracking cumulative token spend and stopping runaway recursive agent loops in `FastAIAgent`.
+- **âš¡ Provider SLA & Routing** â€” Measuring TTFT and token generation velocity to dynamically route prompts across multi-LLM clusters.
+- **ðŸ“Š RAG Quality & Cost Audit** â€” Correlating retrieval precision evaluation scores with token consumption in `FastAIRag`.
+- **ðŸ“‘ Autonomous Budget Enforcement** â€” Real-time cost threshold triggers and multi-tenant billing calculations.
 
 ---
 
@@ -158,10 +158,10 @@ dependencies {
 
 Download the latest JARs directly to add them to your classpath:
 
-1. 📊 **[FastAIMetrics-0.1.0.jar](https://github.com/andrestubbe/FastAIMetrics/releases/download/0.1.0/FastAIMetrics-0.1.0.jar)** (AI Metrics & Cost Telemetry Engine)
-2. 📄 **[FastFileFormat-0.1.0.jar](https://github.com/andrestubbe/FastFileFormat/releases/download/0.1.0/FastFileFormat-0.1.0.jar)** (Dual Binary & Text File Format)
-3. ⚡ **[FastBinary-0.1.0.jar](https://github.com/andrestubbe/FastBinary/releases/download/0.1.0/FastBinary-0.1.0.jar)** (VarInt & Binary Packing)
-4. ⚙️ **[fastcore-0.1.0.jar](https://github.com/andrestubbe/FastCore/releases/download/0.1.0/fastcore-0.1.0.jar)** (Foundation Library)
+1. ðŸ“Š **[FastAIMetrics-0.1.0.jar](https://github.com/andrestubbe/FastAIMetrics/releases/download/0.1.0/FastAIMetrics-0.1.0.jar)** (AI Metrics & Cost Telemetry Engine)
+2. ðŸ“„ **[FastFileFormat-0.1.0.jar](https://github.com/andrestubbe/FastFileFormat/releases/download/0.1.0/FastFileFormat-0.1.0.jar)** (Dual Binary & Text File Format)
+3. âš¡ **[FastBinary-0.1.0.jar](https://github.com/andrestubbe/FastBinary/releases/download/0.1.0/FastBinary-0.1.0.jar)** (VarInt & Binary Packing)
+4. âš™ï¸ **[fastcore-0.1.0.jar](https://github.com/andrestubbe/FastCore/releases/download/0.1.0/fastcore-0.1.0.jar)** (Foundation Library)
 
 ---
 
@@ -183,12 +183,12 @@ MIT License. See [LICENSE](LICENSE) file for details.
 
 ## Related Projects
 
-- [FastAI](https://github.com/andrestubbe/FastAI) — Unified provider routing & LLM client layer
-- [FastAIAgent](https://github.com/andrestubbe/FastAIAgent) — Autonomous agent logic, tools & planning
-- [FastAIState](https://github.com/andrestubbe/FastAIState) — Lock-free shared agent state & blackboard memory
-- [FastAIRag](https://github.com/andrestubbe/FastAIRag) — High-speed retrieval augmented generation pipeline
-- [FastFileFormat](https://github.com/andrestubbe/FastFileFormat) — Universal dual-format binary & text document engine
+- [FastAI](https://github.com/andrestubbe/FastAI) â€” Unified provider routing & LLM client layer
+- [FastAIAgent](https://github.com/andrestubbe/FastAIAgent) â€” Autonomous agent logic, tools & planning
+- [FastAIState](https://github.com/andrestubbe/FastAIState) â€” Lock-free shared agent state & blackboard memory
+- [FastAIRag](https://github.com/andrestubbe/FastAIRag) â€” High-speed retrieval augmented generation pipeline
+- [FastFileFormat](https://github.com/andrestubbe/FastFileFormat) â€” Universal dual-format binary & text document engine
 
 ---
 
-**Part of the FastJava Ecosystem** — *Making the JVM faster. Small package. Maximum speed. Zero bloat. 🚀📋*
+**Part of the FastJava Ecosystem** â€” *Making the JVM faster. Small package. Maximum speed. Zero bloat. ðŸš€ðŸ“‹*
