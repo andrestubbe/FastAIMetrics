@@ -1,3 +1,6 @@
+> [!WARNING]
+> **🚧 WIP — Active AI Pipeline Construction & Architecture Optimization in Progress.**
+
 # FastAIMetrics 0.1.1 [ALPHA] — Ultra-Fast Lock-Free AI Telemetry, Cost Engine & Evaluation Streamer
 
 [![Status](https://img.shields.io/badge/status-0.1.1-brightgreen.svg)](https://github.com/andrestubbe/FastAIMetrics/releases/tag/0.1.1)
