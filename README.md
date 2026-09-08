@@ -15,6 +15,8 @@
 
 **FastAIMetrics** provides zero-allocation, nanosecond-speed telemetry for autonomous agents, LLM client pipelines, and RAG architectures. It tracks prompt/completion tokens, Time-to-First-Token (TTFT), execution latencies, dynamic model pricing, and evaluation heuristic scores without external servers, OpenTelemetry bloat, or Docker overhead.
 
+[Watch Demo (YouTube)] | [Watch JMH Benchmark (Youtube)]
+
 ---
 
 ## Quick Start
